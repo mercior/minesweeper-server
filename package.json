@@ -1,7 +1,16 @@
 {
   "name": "node-minesweeper",
-  "version": "0.0.1",
-  "description": "minesweeper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "minesweeper-flags-server",
+  "keywords": [
+    "minesweeper"
+  ],
+  "author": "mercior",
+  "license": "MIT",
+  "engines": {
+    "node": "8.10.0"
+  }
   "dependencies": {
     "express": "^4.10.2",
     "socket.io": "^1.4.5",

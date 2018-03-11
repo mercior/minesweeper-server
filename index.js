@@ -1100,6 +1100,7 @@ for (var i = 0; i < 10; i++)
 for (var i = 0; i < 5; i++)
 	bots.push( new gameBot('pro', 10) );
 
-http.listen(3000, function(){
-	console.log('listening on *:3000');
+
+http.listen(process.argv[2], function(){
+	console.log('listening on *:' + process.argv[2]);
 });
